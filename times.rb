@@ -1,5 +1,13 @@
 def using_times
-	#your code here
+	times = 0 
+
+  loop do
+
+    puts "Wingardium Leviosa"
+    times += 1 
+
+    break if times == 7
+  end
 end
 
 
